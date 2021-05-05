@@ -2,9 +2,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="290dp"
-    android:layout_height="290dp"
+    android:layout_height="350dp"
     android:background="#411F73"
-    android:layout_marginTop="10dp"
     tools:context=".FirstFragment">
 
 
@@ -14,6 +13,13 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/close_button"
+            android:layout_gravity="right"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -21,6 +27,20 @@
             android:gravity="center"
             android:text="This section isn't launched yet"
             android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="A team of highly trained monkeys are working on it."
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/monkey" />
 
     </LinearLayout>
 
