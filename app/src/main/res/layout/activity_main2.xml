@@ -21,14 +21,63 @@
 
     <FrameLayout
         android:id="@+id/fragmentContainer"
-        android:layout_width="290dp"
-        android:layout_height="350dp"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:elevation="20dp"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:text="Product Lorem Ipsum"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Product text... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in mauris suscipit, interdum odio nec, maximus tortor. In non enim tempor felis maximus mattis. Duis varius, lorem a bibendum convallis, est justo varius felis, eu porta turpis lectus ut dolor. Pellentesque molestie lacinia elit in congue. Donec sem quam, mollis a dictum vitae, feugiat a mauris. Mauris interdum orci nec neque elementum molestie. Maecenas nec cursus neque. Quisque id luctus ex."
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in mauris suscipit, interdum odio nec, maximus tortor. In non enim tempor felis maximus mattis. "
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:layout_marginTop="470dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
